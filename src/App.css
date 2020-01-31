@@ -1,0 +1,161 @@
+.logo {
+padding-top: 10px;
+  position: static;
+  width: 300px;
+  
+}
+.navbar {
+  position:relative;
+  height: 0px;
+  width: 100%;
+  background:transparent;
+  z-index: 16;
+}
+
+.nav-header {
+  display: flex;  
+ height: auto;
+}
+.nav-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+.nav-icon {
+  font-size: 1.5rem;
+}
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  
+  list-style-type: none;
+}
+.nav-links a {
+  display: block;
+  text-decoration: none;
+  padding: 2rem 0;
+  font-weight: 1;
+  text-align: center;
+  font-size: 1rem;
+  
+  background:transparent;
+}
+.nav-links a:hover {
+  color: gray;
+}
+
+.show-nav {
+  background: whitesmoke;
+  width: 100%;
+  height: 1000px;
+}
+@media screen and (min-width: 850px) {
+  .nav-btn {
+    display: none;
+  }
+  .nav-center {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+  }
+  .nav-links {
+    height: auto;
+    display: flex;
+  }
+  .nav-links a {
+    margin: 0 1rem;
+    padding: 0.0rem 0;
+  }
+}
+/* end of navbar */
+.Image1 {
+width: 100%;
+height: 500px;
+}
+.buttn{
+  width: 15rem; 
+  margin-left: 20px !important;
+  margin-bottom: 40px !important;
+  border-radius: 55px !important;
+  color: white;
+  height: 3rem;
+}
+.MuiPaper-elevation1 {
+  box-shadow: 0px 0px 0px 0px !important;
+}
+
+.card-hover-elevate{
+  transition: box-shadow 0.3s !important;
+box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.26);
+}
+
+.card-hover-elevate:hover{
+  box-shadow: 3px 10px 24px 0px rgba(0,0,0,0.26);
+
+}
+
+ ul {
+	 list-style-type: none;
+	 margin: 0;
+	 text-align: center;
+	 margin-top: 2.5%;
+}
+ ul li {
+	 display: inline-block;
+	 
+}
+ a {
+	 color: #584e4a;
+	 position: relative;
+   text-transform: uppercase;
+}
+ a:before, a:after {
+	 content: '............';
+	 position: absolute;
+	 bottom: 2px;
+	 left: 0;
+	 right: 0;
+   height: 0.6rem;
+   
+}
+ a:after {
+	 opacity: 0;
+	 transform: translateY(- 18px);
+	 transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+ a:before {
+	 opacity: 0;
+	 transform: translateY(14px);
+	 transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+ a:hover:before, a:focus:before, a:hover:after, a:focus:after {
+	 opacity: 1;
+	 transform: translateY(0);
+}
+ a:hover:before, a:focus:before {
+	 transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s;
+}
+ a:hover:after, a:focus:after {
+	 transition: transform 1s 1s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.3s;
+}
+.headig {
+  top: 510px;
+  
+  position: absolute;
+  
+  animation: sampleanimation 0.5s;
+}
+
+@keyframes sampleanimation {
+0% {
+  top:-100px;
+}
+ 
+ 
+}
+ 
